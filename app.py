@@ -15,8 +15,8 @@ st.set_page_config(layout='wide',
                    page_title='Python',
                    page_icon=icon)
 
-st.title('Python Week 8 - Deployment')
-st.text('Case Study - Machine Learning Web Application with Streamlit')
+st.title('Analysis and modeling of two dataset')
+st.text('Machine Learning Web Application with Streamlit')
 
 # Sidebar container
 st.sidebar.image(image=logo)
@@ -268,7 +268,7 @@ else:
 
             from sklearn.model_selection import train_test_split
             X_train, X_test, y_train, y_test = train_test_split(
-                X, Y, test_size=float(test_size), random_state=int(random_state))
+                X, Y, test_size=int(test_size), random_state=int(random_state))
 
             st.markdown('X_train size = {0}'.format(X_train.shape))
             st.markdown('X_test size = {0}'.format(X_test.shape))
