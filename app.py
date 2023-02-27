@@ -275,7 +275,7 @@ else:
             st.markdown('y_train size = {0}'.format(y_train.shape))
             st.markdown('y_test size = {0}'.format(y_test.shape))
 
-            st.title('Congratulations Your Model is working')
+            # st.title('Congratulations Your Model is working')
 
             if model == 'Xgboost':
                 import xgboost as xgb
